@@ -1,7 +1,11 @@
 # main.py
 
 def calculate_sum():
-    # 在此编写代码
+    sum = 0
+    for i in range(51):
+        sum = i + sum
+    return sum
+    pass
 
 
 if __name__ == "__main__":
